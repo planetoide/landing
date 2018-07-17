@@ -1,0 +1,105 @@
+
+.nav-link {
+	color: #182e36;
+}
+.nav-link:hover {
+	color: #fff;
+}
+.icono {
+	color: #182e36;
+}
+#home-section {
+	background: url('../img/perlas_landing.jpg') no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.home {
+	height: 100vh;
+}
+
+.home img {
+	width: 150px;
+	height: auto;
+}
+.home p {
+	text-align: center;
+}
+.imagen {
+	height: 100vh;
+
+}
+#info-section {
+	color: #182e36;
+	background-color: lightgrey;
+}
+.marca {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90px;
+    height: 90px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #224c5c;
+}
+#features-section {
+	color: #182e36;
+
+}
+#download-section {
+	background: -moz-linear-gradient(45deg, rgba(103,181,208,1) 0%, rgba(34,76,92,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(103,181,208,1)), color-stop(100%, rgba(34,76,92,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(103,181,208,1) 0%, rgba(34,76,92,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(103,181,208,1) 0%, rgba(34,76,92,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(103,181,208,1) 0%, rgba(34,76,92,1) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(103,181,208,1) 0%, rgba(34,76,92,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#224c5c', endColorstr='#67b5d0',GradientType=1 ); /* ie6-9 */
+	color: #fff;
+}
+
+#contact-section {
+	color: #182e36;
+}
+#contact-section form {
+	width: 50%;
+}
+.btn-enviar {
+	background-color: #182e36;
+	color: #fff;
+}
+footer {
+	background-color: #67b5d0;
+	color: #182e36;
+}
+
+/*####### Media Queries #######*/
+@media screen and (max-width: 480px) {
+	#home-section {
+		background: url('../img/perlas_landing_movil.png') no-repeat;
+		max-height: 70vh; 
+		background-size: contain;
+		background-attachment: fixed;
+	}
+	.home {
+		height: 100vh;
+		display: flex;
+	}
+	.home img {
+		width: 100px;
+	
+	}
+	.imagen {
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+	.app2 {
+		margin-top: 70px;
+	}
+	#contact-section form {
+	width: 80%;
+}
+}
