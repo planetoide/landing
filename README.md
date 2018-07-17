@@ -1,2 +1,2 @@
 # landing
-Proyecto de landign page con Bootstrap 4
+Proyecto de landing page con Bootstrap 4
